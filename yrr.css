@@ -7,7 +7,18 @@ header, footer{
 	color:#FFE221;
 }
 header span{
+	display:inline-block;
 	margin:0 auto;
+	position:relative;
+	width:85%;
+	text-align:center;
+	font-size:3vw;
+}
+header{
+	display:inline-block;
+	position:relative;
+	text-align:center;
+	width:89%;
 }
 
 button{
@@ -115,11 +126,9 @@ form fieldset span{
 /* 	position:relative; */
 }
 .newsLetterCenter{
-	
-		margin:12px auto;
-
+	margin:12px auto;
 	position:relative;
-		text-align:center;
+	text-align:center;
 }
 #fullForm{
 	margin: 5px auto;
@@ -131,6 +140,7 @@ form fieldset span{
 .full-window{
 	width:100%;
 }
+
 img{
 	width: 15%;
     height: auto;
@@ -240,12 +250,23 @@ p{
   body{
 	  font-size:4vw;
   }
+  
+button{
+	
+	font-size: 1.5em;
+	
+	letter-spacing: 1.2px;
+	
+	width:80%;
+
+}
 label, input, p, {
 	margin:0,2vw auto;
 }
 .labelForInput{
 	margin-bottom:0;
 	margin-top:0;
+	width:80%;
 }
 /* legend{
 	display:inline-block;
