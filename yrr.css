@@ -346,9 +346,9 @@ p{
 		background-color:#3C3C3C;
 		position:fixed;
 		margin:0 auto;
-		left:20%;
+		left:15%;
 		top:18vw;
-		
+		display:block;
 		padding-top:1vw;
 		padding-left:3px;
 		padding-right:3px;
