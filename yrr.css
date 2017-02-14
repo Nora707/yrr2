@@ -339,6 +339,21 @@ p{
 	header span{
 		text-align:right;
 	}
+	  #popup{
+		min-width:21vw;
+		min-height:8vw;
+		color:#FFE221;
+		background-color:#3C3C3C;
+		position:fixed;
+		margin:0 auto;
+		left:20%;
+		top:18vw;
+		
+		padding-top:1vw;
+		padding-left:3px;
+		padding-right:3px;
+		
+	}
 }
 
 /* ----------- Tablet----------- */
