@@ -20,7 +20,6 @@ header{
 	text-align:center;
 	width:89%;
 }
-
 button{
 	font-family: "Montserrat", sans-serif;
 }
@@ -106,8 +105,7 @@ button.done:hover{
 }
 #email-holder input:last-child{
 	width:8vw;
-	min-width:60px;		
-				
+	min-width:60px;				
 	-webkit-order: 0;
     -ms-flex-order: 0;
     order: 0;
@@ -123,7 +121,6 @@ fieldset{
 }
 form fieldset span{
 	margin: 5px auto;
-/* 	position:relative; */
 }
 .newsLetterCenter{
 	margin:12px auto;
@@ -135,12 +132,22 @@ form fieldset span{
 	border: 3vw solid #FFE221;
 	background-color:ghostwhite;
 	max-width:70%;
-	
 }
 .full-window{
 	width:100%;
 }
-
+footer{
+	font-size:0.7em;
+	color:white;
+	text-align:center;
+}
+footer img{
+	left:0;
+}
+#comment{
+	width:100%;
+	margin:0 auto;
+}
 img{
 	width: 15%;
     height: auto;
@@ -153,7 +160,6 @@ label span{
 }
 label, input, p{
 	margin:15px auto;
-/* 	position:relative; */
 }
 .labelForInput{
 	margin-bottom:0;
@@ -161,25 +167,22 @@ label, input, p{
 }
 #newsLetterBox{
 	margin:auto;
-
 }
 #radioFieldset span label{
 	display:block;
-/* 	position:relative; */
 	width:17vw;
 	min-width:180px;
 }
 #radioFieldset div{
-/* 
-	width:20vw;
-	min-width:150px; */
 	background-color: ghostwhite;
 	border-top: 3px solid #3C3C3C;
-		margin:15px 1.5vw;
-		padding:1vw;
-		width:16vw;
-
-} 
+	padding:1vw;
+	width:16vw;
+	display:inline-block;
+	margin:0 auto;
+	text-align:left;
+	min-width:178px;
+}
 p{
 	text-align:center;
 }
@@ -202,13 +205,6 @@ p{
 	vertical-align:center;
 	transition:all 2s;
 }
-.threeQestions{
-	display:inline-block;
-	margin:0 auto;
-	border-top: 5px solid #3C3C3C;
-	text-align:left;
-	min-width:178px;
-}
 .threeQestions label{
 	clear:left;
 	display:block;
@@ -219,11 +215,6 @@ p{
 	text-align:center;
 	border:0;
 }
-
-/* span [type="text"]{
-	display:inline-block;
-	
-} */
 [type="text"]{
 	display:block;
 	margin: 5px auto;
@@ -244,113 +235,110 @@ p{
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 32px) 
+  and (min-device-width: 320px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
-  body{
-	  font-size:4vw;
-  }
-  
-button{
-	
-	font-size: 1.2em;
-	
-	letter-spacing: 1.2px;
-	
-	width:80%;
-
-}
-label, input, p, {
-	margin:0,2vw auto;
-}
-.labelForInput{
-	margin-bottom:0;
-	margin-top:0;
-	width:80%;
-}
-#newsLetterBox{
-
-	width:2em;
-	height:2em;
-}
-.newsLetterCenter{
-width: 80%;
-}
-#writeInFieldset input{
-	border:1px solid #3C3C3C;
-	border-radius:3px;
-	width:90%;
-	height:3em;
-	font-size:1.1em;
-}
-#writeInFieldset {
-	border:0px solid #3C3C3C;
-	
-
-}
-#writeInFieldset span{
-		margin:0 auto;
-}
-#email-holder input:first-child{
-	width:10vw;
-	min-width:42%;
-	margin-right:0;
-	margin-left:0;
-}
-#email-holder input:last-child{
-	width:8vw;
-	min-width:42%;
-	margin-left:0;
-	margin-right:0;
-}
-#email-holder {
-	width:100%;
-}
-.threeQestions{
-	display:block;
-	margin:0 auto;
-	border-top: 2px solid #3C3C3C;
-	text-align:left;
-
-	width:100%;
-}
-.threeQestions label{
-	clear:both;
-	display:block;
-	width:50%;
-}
-#radioFieldset{
-	margin:auto;
-	position:relative;
-	text-align:center;
-	border:0;
-
-}
-#radioFieldset div{
-
-	background-color: ghostwhite;
-	border:0;
-	border-top: 2px solid #3C3C3C;
-		
+	body{
+		font-size:4vw;
+	}
+	  
+	button{
+		font-size: 1.2em;
+		letter-spacing: 1.2px;
+		width:80%;
+	}
+	label, input, p, {
+		margin:0,2vw auto;
+	}
+	.labelForInput{
+		margin-bottom:0;
+		margin-top:0;
+		width:80%;
+	}
+	#newsLetterBox{
+		width:2em;
+		height:2em;
+	}
+	.newsLetterCenter{
+		width: 80%;
+	}
+	#writeInFieldset input{
+		border:1px solid #3C3C3C;
+		border-radius:3px;
+		width:90%;
+		height:3em;
+		font-size:1.1em;
+	}
+	#writeInFieldset {
+		border:0px solid #3C3C3C;
+	}
+	#writeInFieldset span{
+			margin:0 auto;
+	}
+	#email-holder input:first-child{
+		width:10vw;
+		min-width:42%;
+		margin-right:0;
+		margin-left:0;
+	}
+	#email-holder input:last-child{
+		width:8vw;
+		min-width:42%;
+		margin-left:0;
+		margin-right:0;
+	}
+	#email-holder {
+		width:100%;
+	}
+	.threeQestions label{
+		clear:both;
+		display:block;
+		width:60%;
+	}
+	#radioFieldset{
+		margin:auto;
+		position:relative;
+		text-align:center;
+		border:0;
+	}
+	#radioFieldset div{
+		background-color: ghostwhite;
+		border:0;
+		border-top: 2px solid #3C3C3C;
 		padding:1vw;
 		padding-left:2vw;
 		padding-right:2vw;
 		width:90%;
-
-} 
-#fullForm{
-	margin: 5px auto;
-	border: 3vw solid #FFE221;
-	background-color:ghostwhite;
-	min-width:90%;
-	
-}
-[type="radio"]{
-	width:2em;
-	height:2em;
-}
-
+		display:block;
+		margin:0 auto;
+		text-align:left;
+	} 
+	#fullForm{
+		margin: 5px auto;
+		border: 3vw solid #FFE221;
+		background-color:ghostwhite;
+		min-width:90%;
+	}
+	[type="radio"]{
+		width:2em;
+		height:2em;
+	}
+	footer{
+		font-size:0.5em;
+	}
+	img{	
+		width: 35%;
+		height: auto;
+		left:0;
+		margin-top:1vh;
+	}
+	header{
+		text-align:left;
+	}
+	header span{
+		text-align:right;
+	}
 }
 
 /* ----------- Tablet----------- */
@@ -360,84 +348,79 @@ width: 80%;
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-    body{
-	  font-size:2vw;
-  }
-  
-button{
-	font-size: 1.0em;
-	letter-spacing: 1.2px;
-	width:80%;
-
-}
-label, input, p, {
-	margin:0,2vw auto;
-}
-.labelForInput{
-	margin-bottom:0;
-	margin-top:0;
-	width:80%;
-}
-
-#writeInFieldset input{
-	border:1px solid #3C3C3C;
-	border-radius:3px;
-	width:90%;
-	height:3em;
-	font-size:0.9em;
-}
-#writeInFieldset {
-	border:0px solid #3C3C3C;
-
-}
-#writeInFieldset span{
-		width:97%;
+	body{
+		  font-size:2vw;
+	}
+	  
+	button{
+		font-size: 1.0em;
+		letter-spacing: 1.2px;
+		width:80%;
+	}
+	label, input, p, {
+		margin: 0.2vw auto;
+	}
+	.labelForInput{
+		margin-bottom:0;
+		margin-top:0;
+		width:80%;
+	}
+	#writeInFieldset input{
+		border:1px solid #3C3C3C;
+		border-radius:3px;
+		width:90%;
+		height:3em;
+		font-size:0.9em;
+	}
+	#writeInFieldset {
+		border:0px solid #3C3C3C;
+	}
+	#writeInFieldset span{
+			width:97%;
+			margin:0 auto;
+	}
+	#email-holder input:first-child{
+		width:10vw;
+		min-width:40%;
+	}
+	#email-holder input:last-child{
+		width:8vw;
+		min-width:40%;
+	}
+	#radioFieldset div{
+		background-color: ghostwhite;
+		border:0;
+		border-top: 2px solid #3C3C3C;	
+		padding:1vw;
+		padding-left:2vw;
+		padding-right:2vw;
+		width:30%;
+		display:inline-block;
 		margin:0 auto;
+		text-align:left;
+		min-width:178px;
+	} 
+	.threeQestions label{
+		clear:left;
+		display:block;
+	}
+	#radioFieldset{
+		margin:auto;
+		position:relative;
+		text-align:center;
+		border:0;
+	}
+	#fullForm{
+		margin: 5px auto;
+		border: 3vw solid #FFE221;
+		background-color:ghostwhite;
+		min-width:80%;
+	}
+	footer{
+		font-size:0.5em;
+	}
+	[type="radio"]{
+		width:2em;
+		height:2em;
+	}
 }
-#email-holder input:first-child{
-	width:10vw;
-	min-width:40%;
-}
-#email-holder input:last-child{
-	width:8vw;
-	min-width:40%;
-}
-
-#radioFieldset div{
-	background-color: ghostwhite;
-	border:0;
-	border-top: 2px solid #3C3C3C;	
-	padding:1vw;
-	padding-left:2vw;
-	padding-right:2vw;
-	width:30%;
-} 
-.threeQestions{
-	display:inline-block;
-	margin:0 auto;
-	border-top: 5px solid #3C3C3C;
-	text-align:left;
-	min-width:178px;
-}
-.threeQestions label{
-	clear:left;
-	display:block;
-}
-#radioFieldset{
-	margin:auto;
-	position:relative;
-	text-align:center;
-	border:0;
-}
-#fullForm{
-	margin: 5px auto;
-	border: 3vw solid #FFE221;
-	background-color:ghostwhite;
-	min-width:80%;
-	
-}
-[type="radio"]{
-	width:2em;
-	height:2em;
-}
-  }
