@@ -253,7 +253,7 @@ p{
   
 button{
 	
-	font-size: 1.5em;
+	font-size: 1.2em;
 	
 	letter-spacing: 1.2px;
 	
@@ -283,6 +283,8 @@ legend label{
 	border:1px solid #3C3C3C;
 	border-radius:3px;
 	width:80%;
+	height:3em;
+	font-size:0.8em;
 }
 #writeInFieldset {
 	border:0px solid #3C3C3C;
@@ -338,6 +340,10 @@ legend label{
 	background-color:ghostwhite;
 	min-width:90%;
 	
+}
+[type="radio"]{
+	width:2em;
+	height:2em;
 }
 
 }
