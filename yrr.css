@@ -20,7 +20,6 @@ header{
 	text-align:center;
 	width:89%;
 }
-
 button{
 	font-family: "Montserrat", sans-serif;
 }
@@ -73,41 +72,40 @@ button.done:hover{
 #email-holder{
 	width:20vw;
 	display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-align-content: stretch;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-direction: row;
+  	-ms-flex-direction: row;
+  	flex-direction: row;
+ 	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: center;
+ 	-ms-flex-pack: center;
+ 	justify-content: center;
+ 	-webkit-align-content: stretch;
+ 	-ms-flex-line-pack: stretch;
+ 	align-content: stretch;
+ 	-webkit-align-items: center;
+	-ms-flex-align: center;
+ 	align-items: center;
 }
 #email-holder input:first-child{
 	width:10vw;
 	min-width:90px;	
 	-webkit-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-    -webkit-flex: 0 1 auto;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    align-self: center;
+	-ms-flex-order: 0;
+	order: 0;
+	-webkit-flex: 0 1 auto;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-webkit-align-self: center;
+	-ms-flex-item-align: center;
+ 	align-self: center;
 }
 #email-holder input:last-child{
 	width:8vw;
-	min-width:60px;		
-				
+	min-width:60px;				
 	-webkit-order: 0;
     -ms-flex-order: 0;
     order: 0;
@@ -123,7 +121,6 @@ fieldset{
 }
 form fieldset span{
 	margin: 5px auto;
-/* 	position:relative; */
 }
 .newsLetterCenter{
 	margin:12px auto;
@@ -135,12 +132,10 @@ form fieldset span{
 	border: 3vw solid #FFE221;
 	background-color:ghostwhite;
 	max-width:70%;
-	
 }
 .full-window{
 	width:100%;
 }
-
 img{
 	width: 15%;
     height: auto;
@@ -153,7 +148,6 @@ label span{
 }
 label, input, p{
 	margin:15px auto;
-/* 	position:relative; */
 }
 .labelForInput{
 	margin-bottom:0;
@@ -164,20 +158,15 @@ label, input, p{
 }
 #radioFieldset span label{
 	display:block;
-/* 	position:relative; */
 	width:17vw;
 	min-width:180px;
 }
 #radioFieldset div{
-/* 
-	width:20vw;
-	min-width:150px; */
 	background-color: ghostwhite;
 	border-top: 3px solid #3C3C3C;
 		margin:15px 1.5vw;
 		padding:1vw;
 		width:16vw;
-
 } 
 p{
 	text-align:center;
@@ -218,11 +207,6 @@ p{
 	text-align:center;
 	border:0;
 }
-
-/* span [type="text"]{
-	display:inline-block;
-	
-} */
 [type="text"]{
 	display:block;
 	margin: 5px auto;
@@ -232,7 +216,7 @@ p{
 	min-height:20px;;
 }
 #writeInFieldset{
-		border: 0px solid #3C3C3C;
+	border: 0px solid #3C3C3C;
 }
 #writeInFieldset input{
 	border:2px solid #3C3C3C;
@@ -252,13 +236,9 @@ p{
   }
   
 button{
-	
 	font-size: 1.2em;
-	
 	letter-spacing: 1.2px;
-	
 	width:80%;
-
 }
 label, input, p, {
 	margin:0,2vw auto;
@@ -268,23 +248,12 @@ label, input, p, {
 	margin-top:0;
 	width:80%;
 }
-/* legend{
-	display:inline-block;
-	width:80%;
-	min-width:180px;
-}
-legend label{
-	display:block;
-	position:relative;
-	width:17vw;
-	min-width:180px;
-} */
 #writeInFieldset input{
 	border:1px solid #3C3C3C;
 	border-radius:3px;
 	width:90%;
 	height:3em;
-	font-size:0.8em;
+	font-size:1em;
 }
 #writeInFieldset {
 	border:0px solid #3C3C3C;
