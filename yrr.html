@@ -1,0 +1,95 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Yellowroad regisztráció</title>
+	
+	<link type="text/css" rel="stylesheet" href="yrr.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+</head>
+<body>
+<div id="popup"></div>
+	<header id="headerAndlogo"><img src="yellowroad-logo-yellow.png" alt="logo" /><span>Yellowroad regisztráció </span></header>
+	<div id="titleDiv"></div>
+	<div id="fullForm" >
+		<form>
+					
+			<fieldset id="writeInFieldset">
+			<label class="center labelForInput" for="surName">Vezetéknév:</label>
+				<input type="text" placeholder="Vezetéknév"  required id="surName" maxlength="200" />
+				<label class="center labelForInput" for="givenName" >Keresztnév:</label>
+				<input type="text" placeholder="Keresztnév" required id="givenName" maxlength="50" />
+				<label class="center labelForInput" for="emailLocal">E-mail cím:</label>
+				<span class="center " id="email-holder">
+					<input type="text" placeholder="E-mail cím első része" required id="emailLocal" maxlength="250" value='email'/>
+					@<input type="text" placeholder="minta.hu" required id="emailDomain" maxlength="67" value='minta.hu'/>
+				</span><label class="center labelForInput" for="phoneNomber">Telefonszám:</label>
+				 <input type="text" placeholder="Telefonszám" id="phoneNomber" maxlength="15" value='+36'/>
+			</fieldset>
+			<p>3 gyors kérdés</p>
+			<fieldset id="radioFieldset">
+
+				<div class="threeQestions">
+					<p>Iskolai végzettség </p>
+					<label for="university">
+						<input type="radio" name="school" id="university" required >
+						<span>Főiskola/Egyetem</span>
+					</label>
+					<label for="highSchool">
+						<input type="radio" name="school" id="highSchool">
+						<span>Érettségi</span>
+					</label>
+					<label for="other">
+						<input type="radio" name="school" id="other">
+						<span>Egyéb</span>
+					</label>
+				</div>
+				<div  class="threeQestions">
+					<p>Angol nyelvtudás</p>
+					<label for="engB1">
+						<input type="radio" name="english" id="engB1" required >
+						<span>Alapfok</span>
+					</label>
+					<label for="engB2">
+						<input type="radio" name="english" id="engB2">
+						<span>Középfok</span>
+					</label>
+					<label for="engC1">
+						<input type="radio" name="english" id="engC1">
+						<span>Felsőfok</span>
+					</label>
+				</div>
+				<div  class="threeQestions">
+					<p>Életkor:</p>
+					<label for="25AndDown">
+						<input type="radio" name="ageRange" id="25AndDown" required >
+						<span>18-25 év</span>
+					</label>
+					<label for="between26And35">
+						<input type="radio" name="ageRange" id="between26And35">
+						<span>26-35 év</span>
+					</label>
+					<label for="35AndUp">
+						<input type="radio" name="ageRange" id="35AndUp">
+						<span>35 év felett</span>
+					</label>
+				</div>
+				
+			</fieldset>
+			<span class="center newsLetterCenter" ><input type="checkbox" id="newsLetterBox" checked />&nbsp; Feliratkozás hírlevélre</span>
+			<span class="center full-window" >
+				<button type="submit" id="submit" class="" >Regisztrálok</button>
+			</span>
+		</form>
+	</div>
+	<footer id="footer"></footer>
+
+
+	<script type="text/javascript" src="yrr.js">
+	</script>
+</body>
+</html>
